@@ -8,8 +8,8 @@ st.set_page_config(page_title="Trader Behavior Dashboard", layout="wide")
 st.title("Trader Behavior vs Market Sentiment")
 
 # Load Data
-final_df = pd.read_csv("Datasets/final_features_data.csv")
-cluster_df = pd.read_csv("Datasets/clustered_data.csv")
+final_df = pd.read_csv("Datasets/Visualisations/final_features_data.csv")
+cluster_df = pd.read_csv("Datasets/Visualisations/clustered_data.csv")
 
 
 # Sidebar Filters
